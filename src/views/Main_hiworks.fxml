@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="774.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HiworksController">
+   <children>
+      <JFXTextField fx:id="hiworks_id" focusColor="#1277d5" labelFloat="true" layoutX="233.0" layoutY="272.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="308.0" promptText="아이디" />
+      <JFXPasswordField fx:id="hiworks_pass" focusColor="#1277d5" labelFloat="true" layoutX="234.0" layoutY="345.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="35.0" prefWidth="308.0" promptText="비밀번호" />
+      <ImageView fitHeight="128.0" fitWidth="331.0" layoutX="222.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/images/hiworks_logo.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="hiworks_btn" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="233.0" layoutY="406.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#startHiworks" prefHeight="62.0" prefWidth="308.0" ripplerFill="#0009ff" style="-fx-background-color: #1277d5;" text="로그인" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic Bold" size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</Pane>

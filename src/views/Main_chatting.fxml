@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="774.0" style="-fx-background-color: #dbdcde;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChattingController">
+   <children>
+      <Pane layoutY="512.0" prefHeight="59.0" prefWidth="774.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <JFXTextField fx:id="chat_input" layoutX="14.0" layoutY="10.0" prefHeight="37.0" prefWidth="639.0" />
+            <JFXButton fx:id="chat_btn" layoutX="673.0" layoutY="6.0" onAction="#onChatBtn" prefHeight="45.0" prefWidth="87.0" ripplerFill="#0081ff" style="-fx-background-color: #73abe2;" text="전송" textFill="WHITE" />
+         </children>
+      </Pane>
+      <TextArea fx:id="chatlog" layoutX="12.0" layoutY="14.0" prefHeight="481.0" prefWidth="747.0" />
+   </children>
+</Pane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="main_parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="1033.0" style="-fx-border-color: #1f4e9c; -fx-border-style: solid; -fx-border-width: 3px;" stylesheets="/css/Main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="250.0" style="-fx-background-color: #FFF;">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="227.0" layoutX="19.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="/images/logo.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="btn_homepage" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="143.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#open_homepage" prefHeight="50.0" prefWidth="252.0" ripplerFill="#1f4e9c" styleClass="buttons" text="홈페이지" textFill="#1f4e9c">
+               <font>
+                  <Font name="Malgun Gothic Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_hiworks" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="205.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#open_hiworks" prefHeight="50.0" prefWidth="252.0" ripplerFill="#1f4e9c" styleClass="buttons" text="메일 알림(Hiworks)" textFill="#1f4e9c">
+               <font>
+                  <Font name="Malgun Gothic Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_setting" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#open_setting" prefHeight="50.0" prefWidth="252.0" ripplerFill="#1f4e9c" styleClass="buttons" text="설정" textFill="#1f4e9c">
+               <font>
+                  <Font name="Malgun Gothic Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btn_chatting" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="265.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#open_chatting" prefHeight="50.0" prefWidth="252.0" ripplerFill="#1f4e9c" styleClass="buttons" text="채팅" textFill="#1f4e9c">
+               <font>
+                  <Font name="Malgun Gothic Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" HBox.hgrow="ALWAYS">
+         <children>
+            <Pane fx:id="paneContent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="774.0" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

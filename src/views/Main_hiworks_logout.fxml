@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="774.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HiworksController">
+   <children>
+      <ImageView fitHeight="128.0" fitWidth="331.0" layoutX="222.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/images/hiworks_logo.png" />
+         </image>
+      </ImageView>
+      <JFXSpinner layoutX="335.0" layoutY="362.0" prefHeight="105.0" prefWidth="105.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="249.0" prefHeight="99.0" prefWidth="331.0" text="알림 대기중...">
+         <font>
+            <Font name="Malgun Gothic Bold" size="41.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

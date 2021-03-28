@@ -1,0 +1,11 @@
+.closeBtn{
+	-fx-background-color: transparent;
+}
+.closeBtn:hover{
+	-fx-background-color: #cccccc;
+}
+.buttons:hover{
+	-fx-border-color: #1f4e9c;
+	-fx-border-width : 0px 7px 0px 0px;
+	-fx-border-style: solid;
+}
