@@ -23,21 +23,21 @@
 
 # 화면
 
-<div style="text-align: center">
+<div align="center">
     <img src="./.readme_img/preview1.png" alt="preview1"/>
 </div>
-<div style="text-align: center;margin-top: 20px;">
+<div align="center">
     <img src="./.readme_img/preview2.png" alt="preview2"/>
 </div>
-<div style="text-align: center;margin-top: 20px;">
+<div align="center">
     <img src="./.readme_img/preview3.png" alt="preview3"/>
 </div>
-<div style="text-align: center;margin-top: 20px;">
+<div align="center">
     <img src="./.readme_img/preview4.png" alt="preview4"/>
 </div>
-<div style="text-align: center;margin-top: 20px;">
+<div align="center">
     <img src="./.readme_img/preview5.png" alt="preview5"/>
 </div>
-<div style="text-align: center;margin-top: 20px;">
+<div align="center">
     <img src="./.readme_img/preview6.png" alt="preview6"/>
 </div>
